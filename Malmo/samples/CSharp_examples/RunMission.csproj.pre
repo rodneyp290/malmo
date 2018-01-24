@@ -84,8 +84,8 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <None Include="$(CSharpWrapperFolder)\libMalmoNETNative.so">
-          <Link>libMalmoNETNative.so</Link>
+        <None Include="$(CSharpWrapperFolder)\MalmoNETNative.so">
+          <Link>MalmoNETNative.so</Link>
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None> 
       </ItemGroup>

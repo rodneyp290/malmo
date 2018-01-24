@@ -79,8 +79,8 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <None Include=".\libMalmoNETNative.so">
-          <Link>libMalmoNETNative.so</Link>
+        <None Include=".\MalmoNETNative.so">
+          <Link>MalmoNETNative.so</Link>
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None> 
       </ItemGroup>
